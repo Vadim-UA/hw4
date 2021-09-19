@@ -1,0 +1,309 @@
+/* &display=swap&subset=cyrillic-ext */
+@font-face {
+   font-family: "Georgia";
+   src: url("../fonts/Georgia-Bold.woff2") format("woff2"), url("../fonts/Georgia-Bold.woff") format("woff");
+   font-weight: bold;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Georgia";
+   src: url("../fonts/Georgia-Italic.woff2") format("woff2"), url("../fonts/Georgia-Italic.woff") format("woff");
+   font-weight: normal;
+   font-style: italic;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Poppins";
+   src: url("../fonts/Poppins-SemiBoldItalic.woff2") format("woff2"), url("../fonts/Poppins-SemiBoldItalic.woff") format("woff");
+   font-weight: 600;
+   font-style: italic;
+   font-display: swap;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap&subset=cyrillic-ext");
+@import url("https://fonts.googleapis.com/css2?family=Gluten:wght@400;700&display=swap&subset=cyrillic-ext");
+
+/* NULL */
+*,
+*::before,
+*::after {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   box-sizing: border-box;
+}
+ul, ol {
+   list-style: none;
+}
+a,
+a:visited {
+   text-decoration: none;
+}
+a:hover {
+   text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-weight: inherit;
+   font-size: inherit;
+}
+img {
+   vertical-align: top;
+}
+html {
+   font-size: 16px; /* по умолчанию */
+}
+body {
+   line-height: 1;
+}
+/* ------------------------------ */
+
+body {
+   font-family: "Roboto", sans-serif;
+   font-size: 1rem;
+}
+p{
+   text-indent: 40px;
+   line-height: 22px;
+}
+.title{
+   letter-spacing: 15px;
+   text-align: center;
+   font-size: 80px;
+   /* text-shadow: 20px -17px 3px rgba(124, 133, 101, 0.68); */
+   text-shadow: 0 1px 0 #cac8c8,
+               0 2px 0 #c7c5c5,
+               0 3px 0 #bbbaba,
+               0 4px 0 #b7b6b6,
+               0 5px 0 #a9a6a6,
+               0 6px 1px rgba(0,0,0,0.2),
+               0 0 5px rgba(0,0,0,0.1),
+               0 1px 3px rgba(0,0,0,0.1),
+               0 3px 5px rgba(0,0,0,0.1),
+               0 5px 10px rgba(0,0,0,0.2),
+               0 10px 10px rgba(0,0,0,0.3),
+               0 20px 20px rgba(0,0,0,0.1);
+
+}
+.upper a{
+   text-decoration: underline;
+}
+.island{
+   font-size: 20px;
+   text-shadow: -9px 0px 4px rgba(23,10,6,0.77);
+}
+.island + p{
+   font-size: 25px;
+   font-family: "Georgia", sans-serif;
+   line-height: 150%;
+   font-style: italic;
+   font-weight: 700;
+}
+.island + p > a,
+.island > a{
+   text-decoration: underline;
+}
+.nord{
+   text-align: right;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 22px;
+   font-style: oblique;
+}
+.nord + p{
+   font-family: monospace;
+   text-transform: uppercase;
+}
+.upper{
+   text-transform: uppercase;
+   line-height: 200%;
+}
+a {
+   font-family: "Dancing Script", cursive;
+}
+.menuitem{
+   letter-spacing: 5px;
+   line-height: 140%;
+}
+.text {
+   font-weight: 700;
+   font-family: "Georgia", sans-serif;
+}
+.text + p{
+   font-family: "Poppins", sans-serif;
+   font-style: italic;
+   font-size: 25px;
+   line-height: 130%;
+}
+.text + p + p{
+   color: rgba(0, 0, 139, 0.719);
+   font-size: 20px;
+   text-align: center;
+}
+.mysticism,
+.mysticism a{
+   font-family: "Georgia", sans-serif;
+   font-style: italic;
+   color: #fff;
+   font-size: 20px;
+   word-spacing: 12px;
+   text-shadow: 1px 1px 2px #000000d3,
+   0 0 1em rgba(70, 6, 6, 0.973);
+}
+.iron{
+   white-space: nowrap;
+   letter-spacing: 7px;
+   font-family: 'Courier New', Courier, monospace;
+}
+
+.kievanrus {
+   text-align: justify;
+   color: rgba(201, 22, 22, 0.534);
+   font-family: "Georgia", sans-serif;
+}
+.kievanrus span mark {
+   font-weight: 600;
+   text-decoration: underline;
+   color: rgb(11, 11, 248);
+   font-size: 20px;
+}
+h3{
+   color: #000;
+   letter-spacing: 5px;
+}
+.italic {
+   font-style: italic;
+}
+.weight900 {
+   font-weight: 900;
+}
+h4{
+   text-align: center;
+   line-height: 100px;
+}
+.image{
+   text-align: center;
+}
+.image > span + p {
+   font-weight: 400;
+   font-size: 25px;
+   line-height: 380%;
+   text-shadow: -35px -25px 5px #000;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-align: left;
+}
+.image span {
+   font-weight: 900;
+   font-style: italic;
+   font-family: "Georgia", sans-serif;
+   text-shadow: 0px 0px 13px #70301E;
+   line-height: 130%;
+}
+
+.anchor{
+   font-size: 20px;
+   color: #00ff00;
+   line-height: 40px;
+   text-transform: lowercase;
+}
+
+#start {
+   font-family: "Gluten", cursive;
+}
+
+.logo {
+   font-size: 30px;
+   line-height: 130%;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-family: "Gluten", cursive;
+   font-size: 40px;
+   line-height: 60px;
+   text-align: center;
+   font-weight: 700;
+}
+
+.nature{
+   text-shadow: 3px -3px rgba(16, 42, 114, 0.575);
+}
+.kozak{
+   font-family: "Poppins", sans-serif;
+   font-style: italic;
+   font-weight: 600;
+}
+.kozak span{
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   letter-spacing: 3px;
+   font-style: normal;
+   word-spacing: 5px;
+}
+.kozak mark{
+   font-size: 30px;
+   line-height: 150%;
+   font-weight: 400;
+   text-decoration: underline;
+}
+.kozak h3 {
+      font-size: 60px;
+      line-height: 150%;
+      text-shadow: 0 1px 0 #cac8c8,
+               0 2px 0 #c7c5c5,
+               0 3px 0 #bbbaba,
+               0 4px 0 #b7b6b6,
+               0 5px 0 #a9a6a6,
+               0 6px 1px rgba(0,0,0,0.2),
+               0 0 5px rgba(0,0,0,0.1),
+               0 1px 3px rgba(0,0,0,0.1),
+               0 3px 5px rgba(0, 0, 0, 0.678),
+               0 5px 10px rgba(0,0,0,0.2),
+               0 10px 10px rgba(0, 0, 0, 0.788),
+               0 20px 20px rgba(0,0,0,0.1);
+}
+.kozaks{
+   text-transform: capitalize;
+   font-family: "Georgia", sans-serif;
+   font-style: italic;
+}
+.kozaks + p{
+   text-transform: uppercase;
+   font-family: "Roboto", sans-serif;
+   font-weight: 900;
+   text-shadow: 0 0 20px rgb(43, 8, 8);
+   text-align: justify;
+}
+.our,
+.our mark{
+   text-transform: uppercase;
+   font-size: 20px;
+}
+.our .link.anchor + p{
+   font-family: "Georgia", sans-serif;
+   font-style: italic;
+   font-weight: 700;
+}
+.our span{
+   text-transform: lowercase;
+}
+.our mark + span{
+   text-decoration: underline;
+   font-size: 30px;
+}
+.our mark{
+   font-weight: 900;
+}
+.footerlink{
+      text-decoration: underline;
+      letter-spacing: 5px;
+      line-height: 20px;
+}
